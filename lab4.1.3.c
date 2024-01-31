@@ -6,7 +6,7 @@ int main()
 	double *p2 = &y;
 	*p1 += 3 - 2*(*p2);
 	*p2 -= 3*(*p1);
-	printf("%ld", x+y);
+	printf("%lf", x+y);
 	getchar();
 	
 	
